@@ -102,3 +102,9 @@ How it works?<br>
   - can one write each ```Student``` object to a file => NO it will be the momory representation of the object. For<br another program execution, this memory representation can't be reloaded.
   - can one write each ```Student.name``` to a file => YES, but imagine you have other attributes to desribe ```Students``` it would start to become too complex
   - the best silution is to convert this list of ```Students``` objects and saves the
+
+
+
+
+##### AUTHORS
+HINGA PETER <hingapeter18@gmail.com>
