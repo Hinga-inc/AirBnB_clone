@@ -1,7 +1,5 @@
 /* boxed list structure of places */
-.places {
-    text-align: center;
-  }
+
   .places h1 {
     font-size: 30px;
     text-align: left;
@@ -62,3 +60,45 @@
   }
   
   
+.petamen {
+  background: url('../images/icon_pets.png') no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.tvamen {
+  background: url('../images/icon_tv.png') no-repeat;
+  background-position: center;
+  height: 50px;
+}
+.wifiamen {
+  background: url('../images/icon_wifi.png') no-repeat;
+  background-position: center;
+  height: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.amenitiescontained, .reviews{
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.amenitiescontained h2, .reviews h2 {
+  font-size: 16px;
+  text-align: initial;
+  border-bottom: 1px solid #dddddd;
+}
+.amenitiescontained ul, .reviews ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-indent: 20px;
+}
+.reviews h2 {
+
+}
